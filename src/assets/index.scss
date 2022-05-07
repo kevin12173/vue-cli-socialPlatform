@@ -1,4 +1,4 @@
-    /* *{outline: 1px solid red;} */
+    // *{outline: 1px solid red;} 
     html, body, div, span, applet, object, iframe,
     h1, h2, h3, h4, h5, h6, p, blockquote, pre,
     a, abbr, acronym, address, big, cite, code,
@@ -45,25 +45,76 @@
     }
     .flex{
       display: flex;
-  }
-  .spaceBetween{
-      justify-content: space-between;
-  }
-  .center{
-      margin: auto;
-  }
-  .verticalAlignMiddle{
-      vertical-align: middle;
-  }
-      .h-60{
-      height: 36px;
-  }
-  .alignItemsCenter{
-      align-items: center
-  }
-  .boxShadow{
-    box-shadow: 0px 3px 0px #000400;
-}
-.backgroundWhite{
-  background: #FFFFFF 0% 0% no-repeat padding-box;
-}
+    }
+    .spaceBetween{
+        justify-content: space-between;
+    }
+    .center{
+        margin: auto;
+    }
+    .verticalAlignMiddle{
+        vertical-align: middle;
+    }
+    .verticalAlignTop{
+        vertical-align:top;
+    }
+    .h-60{
+        height: 36px;
+    }
+    .alignItemsCenter{
+        align-items: center
+    }
+    .textAlignLeft{
+        text-align: left;
+    }
+    .textAlignCenter{
+        text-align: center;
+    }
+    .boxShadow{
+        box-shadow: 0px 3px 0px #000400;
+    }
+    .avatarSmallSize{
+        width: 30px;
+    }
+    .avatarBigSize{
+        width: 45px;
+    }
+    .backgroundWhite{
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+    }
+    section{
+        display: inline-block;
+    }
+    .inlineBlock{
+        display: inline-block
+    }
+    .h100{
+        height: 100%;
+    }
+    .w156{
+        width: 156px;
+    }
+    .mr-16{
+        margin-right: 16px;
+    }
+    .mb-16{
+        margin-bottom: 16px;
+    }
+    .mb-22{
+        margin-bottom: 22px;
+    }
+    .mb-24{
+        margin-bottom: 24px;
+    }
+    .mb-32{
+        margin-bottom: 32px;
+    }
+    .p24{
+        padding: 24px;
+    }
+    .p32{
+        padding: 32px;
+    }
+    .fz0{
+        font-size: 0px;
+    }

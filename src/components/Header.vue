@@ -17,15 +17,12 @@ export default {
 </script>
 
 <style scoped>
-.borderWidth{
-        width: 900px;
-    }
+    .borderWidth{
+            width: 900px;
+        }
     .navbar{
         height: 60px;
 
         margin-bottom: 49px;
-    }
-        .avatarSmallSize{
-        width: 30px;
     }
 </style>

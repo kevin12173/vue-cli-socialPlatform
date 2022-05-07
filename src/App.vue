@@ -2,8 +2,8 @@
   <div id="app">
     <div id="nav">
       <Header/>
-      <router-link to="/">Home</router-link>
-      <router-link to="/about">About</router-link>
+      <!-- <router-link to="/">Home</router-link>
+      <router-link to="/about">About</router-link> -->
     </div>
     <router-view/>
   </div>
@@ -14,7 +14,7 @@
 import Header from '@/components/Header.vue'
 
 export default {
-  name: 'Header1',
+  name: 'Home',
   components: {
     Header
   }
@@ -22,7 +22,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import "./assets/index.scss";
+@import "@/assets/index.scss";
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
